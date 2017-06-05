@@ -1,0 +1,13 @@
+.nav-main {
+  background-color: white;
+  color: black;
+}
+
+.nav-logo{
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.nav-main ul a{
+  color: black;
+}

@@ -7,11 +7,31 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    @media only screen and (max-width: 600px) {
+      .hide-on-small-only{
+        display: none !important;
+      }
+    }
+    @media only screen and (min-width: 600px) and (max-width: 992px) {
+      .hide-on-med-only {
+        display: none !important;
+      }
+    }
+    @media only screen and (min-width: 993px) {
+      .hide-on-large-only {
+        display: none !important;
+      }
+    }
+  </style>
 </head>
 <body>
 <app-root>
-  <div style="text-align: center;">
+  <div class="hide-on-small-only" style="text-align: center;">
     <img src="assets/img/kps.jpg">
+  </div>
+  <div class="hide-on-large-only hide-on-med-only" style="text-align: center;margin-top: 30%">
+    <img src="assets/img/KPS_Logo.jpg" style="width: 80px;">
   </div>
 </app-root>
 </body>

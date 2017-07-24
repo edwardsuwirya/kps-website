@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 blockquote {
-  border-left: 5px solid #4fc3f7;
+  border-left: 5px solid rgb(6,45,246);
 }
 
 .tabs .indicator {
-  background-color: #4fc3f7;
+  background-color: rgb(6,45,246);
 }
 
 @media only screen and (min-width: 601px) {

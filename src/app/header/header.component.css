@@ -25,3 +25,12 @@ nav ul a:hover{
   background-color: white !important;
   color: #4fc3f7;
 }
+
+.logo-on-small{
+  margin-top: 15px;
+}
+.iso-logo-on-small{
+  width: 60px;
+  margin-top: 10px;
+  margin-right: 10px;
+}

@@ -1,3 +1,10 @@
 .small-text-80 {
   font-size: 80%;
 }
+blockquote{
+   border-left: 5px solid #2196f3;
+ }
+i.left{
+  margin-top: 8px;
+  color: #2196f3;
+}

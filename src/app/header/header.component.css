@@ -3,29 +3,24 @@
   margin-top: 3px;
   margin-right: 7px;
 }
-
 .nav-add-info{
   font-size: 12px;
-  font-weight: bolder;
+  font-weight: normal;
 }
 .nav-main {
   background-color: white;
   color: black;
 }
-
 .nav-logo{
-  margin-left: 30px;
-  margin-top: 5px;
+  margin: 6px 0 0 6px;
 }
-
 .nav-main ul a{
   color: black;
 }
 nav ul a:hover{
   background-color: white !important;
-  color: #4fc3f7;
+  color: #2196f3;
 }
-
 .logo-on-small{
   margin-top: 15px;
 }
@@ -33,4 +28,42 @@ nav ul a:hover{
   width: 60px;
   margin-top: 10px;
   margin-right: 10px;
+}
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i{
+  line-height: 80px;
+}
+.fa-volume-control-phone{
+  margin-top: -20px;
+  color: #2196f3;
+  font-size: 2em;
+}
+.fa-small{
+  margin-top: -40px;
+  color: #2196f3;
+}
+.logo-small{
+  width: 100px;
+  margin: -7px 0 0 0;
+}
+nav .nav-wrapper{
+  border-bottom: 2px solid #2196f3;
+}
+.pull-right{
+  margin: 5px 4px 0 0;
+  font-size: 0.7em;
+}
+.fa-phone{
+  margin-top: -20px;
+}
+.fa-envelope{
+  margin-top: -21px;
+}
+.fa-envelope:hover{
+  color: #2196f3;
+}
+#nav-mobile{
+  width: auto;
+}
+.bg-iso{
+  width: 50%;
 }

@@ -1,3 +1,29 @@
 .product-desc{
   font-size: 11px;
 }
+.cstm-fst{
+  font-size: 0.6em;
+}
+blockquote{
+  border-left: 5px solid #2196f3;
+}
+
+/*.card .card-content{*/
+/*padding: 8px;*/
+/*}*/
+i.left{
+  margin-right: 5px;
+}
+.modal-content{
+  padding:0;
+}
+.more-image{
+  color: #2196f3;font-size: 12px !important;
+  padding-bottom: 30px;
+}
+.more-image:hover{
+  color: #2140ff;font-size: 12px !important;
+}
+.brand{
+  font-size: 1.2em;font-weight: 300
+}

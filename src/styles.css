@@ -1,17 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 blockquote {
-  border-left: 5px solid rgb(6,45,246);
+  border-left: 5px solid rgb(6, 45, 246);
 }
 
 .tabs .indicator {
-  background-color: rgb(6,45,246);
+  background-color: rgb(6, 45, 246);
 }
 
+.btn-menu {
+  width: 100%;
+}
+
+div.card {
+  min-height: 400px !important;
+}
+
+img.activator {
+  min-height: 300px !important;
+}
+
+.card-content{
+  padding: 45px !important;
+}
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 80px;
     line-height: 64px;
   }
 }
-
-

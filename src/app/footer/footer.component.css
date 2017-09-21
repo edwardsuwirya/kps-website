@@ -1,15 +1,16 @@
 .address-info {
   font-size: 75%;
 }
-
 .mail-info {
   font-size: 80%;
 }
-
 .small-text-50 {
   font-size: 50%;
 }
-
 footer.page-footer {
-  background-color: rgb(6,45,246);
+  background-color: #2196f3;
+}
+.btn{
+  border-radius: 3px;
+  margin-top: 8px;
 }

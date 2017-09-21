@@ -1,1 +1,68 @@
+blockquote{
+  border-left: 5px solid #2196f3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h4{
+  margin-left: 22px;
+}
+
+*, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+body {background: #2F2556; color: #B9B5C7; font: 14px 'Open Sans', sans-serif;}
+
+h1 {padding: 100px 0; font-weight: 400; text-align: center;}
+p {margin: 0 0 20px; line-height: 1.5;}
+
+[type="radio"]:checked + label::after, .with-gap[type="radio"]:checked + label::after{
+  background-color: #2196f3;
+  left: 30px;
+  top: 24px;
+}
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label{
+  padding-top: 0px;
+  padding-left: 24px;
+  /*background-color: #fff;*/
+}
+.main {margin: 0 auto; min-width: 320px; max-width: 945px;}
+.content {background: #fff; color: #373737;}
+.content > div {display: none; padding: 20px 25px 5px;}
+
+input {display: none;}
+label {display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center;}
+label:hover {color: #2196f3; cursor: pointer;}
+input:checked + label {background: transparent; color: #2196f3;}
+
+#tab1:checked ~ .content #content1,
+#tab2:checked ~ .content #content2,
+#tab3:checked ~ .content #content3,
+#tab4:checked ~ .content #content4,
+#tab5:checked ~ .content #content5,
+#tab6:checked ~ .content #content6,
+#tab7:checked ~ .content #content7{
+  display: block;
+  margin-left: -17px;
+  margin-right: -17px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px 10px;
+  }
+}
+
+.line{
+  border-top: 1px solid #b9b5c7;
+  height: 1px;
+  width: 55%;
+  margin-left: 40px;
+  margin-top: 11px;
+}
+[type="radio"]:not(:checked) + label::before, [type="radio"]:not(:checked) + label::after{
+  background-color: #fff;
+  border-color: #B9B5C7;
+  left: 30px;
+  top: 24px;
+}
+
 

@@ -9,11 +9,11 @@ declare let $:any;
 })
 export class ProductListComponent implements OnInit {
 
-  constructor() {
-  }
-
   ngOnInit() {
     $('.collapsible').collapsible();
-  }
 
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  }
 }

@@ -3,13 +3,12 @@
  */
 import {Component, OnInit} from "@angular/core";
 declare let $:any;
-@Component ({
-  selector:'prdct-sl3',
-  templateUrl:'prdct-sl3.html',
+@Component({
+  selector: 'prdct-sl3',
+  templateUrl: 'prdct-sl3.html',
   styleUrls: ['prdct-sl3.css']
 })
-export class ProductSl3Component implements OnInit{
-
+export class ProductSl3Component implements OnInit {
   ngOnInit(){
     $(document).ready(function(){
       $('.slider').slider();

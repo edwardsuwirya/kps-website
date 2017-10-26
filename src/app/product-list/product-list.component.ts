@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit} from "@angular/core";
 
 declare let $:any;
 
@@ -11,9 +11,6 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit() {
     $('.collapsible').collapsible();
-
-    $(document).ready(function(){
-      $('.modal').modal();
-    });
+    $('.modal').modal();
   }
 }
